@@ -14,9 +14,26 @@
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 5px;
+    box-shadow;
 }
 
 #initBtn {
 
 }
 
+.choiceBtn {
+    border-radius: 8px;
+    .img-responsive;
+    height:225px;
+    width:290px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.hpclass {
+    border-radius: 18px;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
