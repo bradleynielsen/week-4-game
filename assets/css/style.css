@@ -1,0 +1,22 @@
+#standby, #freeToChoose, #playerChoice{
+    background-color: darkgrey;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.img {
+    border-radius: 8px;
+    .img-responsive;
+    .center-block;
+    height:194px;
+    width:259px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#initBtn {
+
+}
+
