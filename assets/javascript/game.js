@@ -28,31 +28,28 @@
         // afn: steinAttack()
     }
 ]}
-//why the path???????????
-$(function() {
-    var cimg = "";
-        cimg = choices[1].choiceImg;
-    console.log(cimg);
+//
+// var playerChosen = false
+// var 
 
-    $("#freeToChoose").append('<img class="img" src=cimg>');
+$( function() {
+    $("#initBtn").click(function() {
+        for (var i = 0; i < choices.length; i++){
+            cimg = choices[i].choiceImg;
+
+            $("#freeToChoose").append('<input type="image" class="img" src=' + cimg + '></input>');
+        }
+    });
 });
 
-//
-// $( function() {
-//     $("#initBtn").click(function() {
-//         alert("hi");
-//         // console.log(choices[1].name);
-//         for (var i = 0; i < choices; i++){
-//             console.log(choices[i].name);
-//             $("freeToChoose").prepend(choices[i].img);
-//         }
-//     });
-// });
-//
+
+$( function() {
+    $("#freeToChoose").click(function()
+
+        )
 
 
-
-
+});
 
 
 
